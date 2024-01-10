@@ -1,4 +1,4 @@
-package com.jaysencryer.configuration;
+package com.jaysencryer.springrest.configrationproperties;
 
 import lombok.Getter;
 import lombok.Setter;
