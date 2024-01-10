@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ConfigController {
     private final PropertyInjection propertyInjection;
+
     @GetMapping("properties")
     public PropertyInjection getProperties() {
         return propertyInjection;
